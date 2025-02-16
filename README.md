@@ -14,3 +14,6 @@ This is a simple, responsive landing page built using **HTML** and **CSS Flexbox
 - HTML5  
 - CSS3 (Flexbox)  
 
+🖼 Image References
+All images used in this project are sourced from:
+pexels.com
