@@ -4,3 +4,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header styling */
+.header_container
+{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+    /*Sticky header (optional style)*/
+    /*
+    position: sticky;
+    top: 0;
+    width; 100%;
+    z-index; 1000;
+    */
+}
+
+/*Logo styling*/
+.logo 
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/*menu_container styling*/
+.menu_container
+{
+    display: flex;
+    gap: 20px; /*space between menu items*/
+}
+
+/*menu links styling*/
+.menu_container a 
+{
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 1.125rem;
+    transition: color 0.3s ease-in-out; /*optional styling added- the text smoothly fades from white to blue over 0.3 seconds instead of changing instantly.*/
+}
+
+/*Hover effect (optional)*/
+.menu_container a:hover
+{
+    color: #3882f6;
+}
+
+
