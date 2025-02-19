@@ -105,3 +105,16 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+/* header Links */
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect (optional) */
+.header-links a:hover {
+    color: #3882F6; /* Change color on hover */
+}
