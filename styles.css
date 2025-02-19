@@ -36,3 +36,24 @@ button {
     width: 30px;
     height: auto;
 }
+
+.header_container{
+    font-family: Roboto, serif;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    color: #e5e7eb;
+    margin: 0;
+    padding: 16px 0 16px 80px;
+}
+
+.header-links{
+    margin: o;
+    padding: 16px 80px 16px 0;
+    display: flex;
+    gap: 16px;
+}
