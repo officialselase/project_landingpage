@@ -118,3 +118,14 @@ button {
 .header-links a:hover {
     color: #3882F6; /* Change color on hover */
 }
+
+/*Smooth hover effect on button*/
+.su_button{
+    transition: background-color 0.3s ease-in-out;
+}
+
+/*Hover effect optional*/
+.su_button:hover{
+    background-color: #2962cc;
+}
+
