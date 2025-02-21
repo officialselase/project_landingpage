@@ -174,3 +174,26 @@ button {
     text-align: center;
 }
 
+.quote-container{
+    background-color: #e5e7eb;
+    padding: 128px 80px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 16px;
+}
+
+.quotation{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2rem;
+    padding: 0 64px;
+}
+
+.quote-author{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 64px;
+    align-self: flex-end;
+}
