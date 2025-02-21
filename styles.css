@@ -236,3 +236,12 @@ button {
 .cta button:hover{
     background-color: #2962cc;
 }
+
+.footer{
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 32px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
