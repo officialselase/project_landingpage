@@ -197,3 +197,42 @@ button {
     padding: 0 64px;
     align-self: flex-end;
 }
+
+.cta{
+    background-color: #3882F6;
+    color: #f9faf8;
+    margin: 80px;
+    padding: 64px 128px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.cta-container{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+}
+
+.cta-container .title-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 8px;
+}
+
+.cta button{
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #f9faf8;
+    flex-shrink: 0;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/*Hover effect optional*/
+.cta button:hover{
+    background-color: #2962cc;
+}
